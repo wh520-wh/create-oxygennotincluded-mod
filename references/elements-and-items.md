@@ -4,7 +4,7 @@
 
 分别设计环境中的 Element、渲染与动画 Substance、可搬运实体 Prefab、供 UI/配方/储存查询的 Tag。确认四者身份对应且索引有效。液气从模拟格子进入 Storage 往往需要物品实体；“液体能流”不能证明“能擦拭成瓶”。
 
-在目标程序集检查 IOreConfig、EntityTemplates.CreateLiquidOreEntity / CreateGasOreEntity / CreateSolidOreEntity 及配置加载流程。按目标版本的原生路线注册，不只调用创建方法却不进入资源注册。液体按需要检查 BottleFlipper 或当前版本等价机制、容器动画、拾取、堆叠、温度疾病和原生相变监视组件。不要把示例 API 当所有版本通用。
+在目标程序集检查 IOreConfig、EntityTemplates.CreateLiquidOreEntity / CreateGasOreEntity / CreateSolidOreEntity 及配置加载流程。按目标版本的原生路线注册，不只调用创建方法却不进入资源注册。液体按需要检查目标版本原生装瓶机制、容器动画、拾取、堆叠、温度疾病和原生相变监视组件；参考实现中的组件（例如参考 Mod 自制的 BottleFlipper）先追查来源、用途和依赖，确认是原版通用需求还是参考项目独有机制。不要把示例 API 当所有版本通用。
 
 为食物、药品、种子、工业产品、装备分别选对应原生配置与扩展，而不是一律用裸 GameObject。原生基础模板承担可选中、保存、碰撞、掉落、拾取等行为；核对其默认值是否符合新物品。
 
