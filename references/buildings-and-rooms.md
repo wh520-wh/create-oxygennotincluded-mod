@@ -2,7 +2,7 @@
 
 ## 定义及生命周期
 
-检查 IBuildingConfig 的 BuildingDef、ConfigureBuildingTemplate、预览/施工/完成配置和运行组件。核对尺寸、BuildLocationRule、支撑、翻转、朝向、碰撞、选中、占地、场景层、材质类别/质量、施工技能时间、熔点过热、拆除和剩余库存。
+检查 IBuildingConfig 的 BuildingDef、ConfigureBuildingTemplate、预览/施工/完成配置和运行组件。核对尺寸、BuildLocationRule、支撑、翻转、朝向、碰撞、选中、占地、场景层、材质类别/质量、施工技能时间、熔点过热、拆除和剩余库存。预览、待建与完成是独立视觉状态：对照原版确认各自的动画、符号与渲染机制，蓝图不得复用成品图层，建造前后保持占地、原点、缩放与地板基线一致；建造阶段美术的完整要求见美术与动画文件。
 
 独立审查预览与实际完成建筑，检查原生模板自动添加了什么，避免重复添加相互争用的控制器。若自有状态机负责动画/active，不再盲加第二个 PoweredActiveController；但必须补齐它原本承担的功能。
 
