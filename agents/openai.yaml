@@ -1,7 +1,7 @@
 interface:
-  display_name: create-oxygennotincluded-mod
-  short_description: 从游戏系统、美术、交互及存档全流程开发并验收缺氧模组
-  default_prompt: 使用 $create-oxygennotincluded-mod，以缺氧开发者视角实现或审查这个 Mod，补齐相关游戏系统，并打磨符合原版风格的美术。
+  display_name: 缺氧 Mod 开发经验
+  short_description: 以原版开发者视角补齐系统关联、美术与界面细节，减少遗漏并自然融入缺氧。
+  default_prompt: 使用 $create-oxygennotincluded-mod 帮我制作并打磨缺氧 Mod，主动考虑易遗漏的系统关联，并先确认新美术的合作方式。
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:
