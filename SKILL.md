@@ -32,6 +32,7 @@ description: 以 Klei《缺氧》开发者视角设计、制作、调试和打�
 
 - 元素、液气固材料、瓶罐、碎块、食物和物品：[元素与物品](references/elements-and-items.md)。
 - 建筑、发电、加工、管道、房间和调优：[建筑与房间](references/buildings-and-rooms.md)。
+- 任务页签、任务行与受阻原因提示类 mod（机制、API、模板与文案修改）：[任务面板与受阻原因](references/chores-panel-and-reasons.md)。
 - 美术、图标、KAnim、占地和建造蓝图：[美术与动画](references/art-and-animation.md)。
 - 植物、动物、装备、疾病、火箭和世界生成：[其他内容类型](references/content-types.md)。
 - 报错或异常表现：[故障经验](references/failure-lessons.md)。
