@@ -152,6 +152,9 @@ create-oxygennotincluded-mod/
 │   ├── art-and-animation.md        # 美术与动画经验：KAnim 遗漏、占地、图标入口、建造阶段
 │   ├── elements-and-items.md       # 元素、材料与物品：四层身份、注册材质、相变、外观与掉落物
 │   ├── buildings-and-rooms.md      # 建筑、房间与玩家信息：原生行为、配方电力、调优、卡片动态显示
+│   ├── duplicants-chores-and-effects.md # 指定小人、可中断等待、存档恢复、效果刷新与多来源
+│   ├── side-screens.md             # 建筑侧屏：原生文本输入、对象绑定、确认按钮与清理
+│   ├── chores-panel-and-reasons.md # 原版任务页签、前置条件与受阻原因提示
 │   ├── content-types.md            # 食物/植物/动物/疾病/装备/火箭/世界生成/全局改造
 │   ├── failure-lessons.md          # 故障经验：已确认问题 / 参考提醒 / 通用风险
 │   └── verification-and-release.md # 按风险选检查、证据边界、排错共存、存档与交付
@@ -191,6 +194,7 @@ create-oxygennotincluded-mod/
 
 - [Klei Entertainment](https://www.klei.com/games/oxygen-not-included) ——《缺氧》及全部原版参考实现是这套经验的事实来源。
 - 故障经验与结论更正来自 WHHW_7A5C 及其参考代码的真实开发调试经历。
+- 交互建筑、复制人效果与侧屏参考补充自 Execution Platform 0.1.0（U59-744825-SCRPN）。原生源码核对与编译/离线检查分别记录，未游戏实测的接入方案不作为已验证模板。
 - 方法论受 obra/superpowers 与 mattpocock 技能链「先验证再下笔、证据分层」的工程纪律启发。
 
 ---
